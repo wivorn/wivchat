@@ -700,6 +700,7 @@ footer {
 
 @media screen and (max-width: 700px) {
 	.connected, .personinside {
+		margin-top: 0;
 		padding-top: 30px;
 		height: 420px;
 	}
