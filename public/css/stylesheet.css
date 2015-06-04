@@ -323,7 +323,7 @@ body {
 	box-sizing: border-box;
 }
 .invite-textfield h2 {
-	padding-top: 80px;
+	padding-top: 30px;
 }
 .invite-textfield h5 {
 	 font-weight: normal;
@@ -340,6 +340,7 @@ body {
 	border-radius: 4px;
 	box-sizing: border-box;
 	background-color: #f0f1f3;
+	word-wrap: break-word;
 }
 .invite-textfield #link{
 	text-decoration: none;
@@ -352,14 +353,14 @@ body {
 .left {
 	text-align:center;
 	display: block;
-	margin:0px auto;
-	width: 750px;
+	margin: 50px auto 400px;
+	width: 100%;
+	max-width: 750px;
 	height: 300px;
 	background-color: #ffffff;
 	border-radius: 3px;
 	box-shadow:0px 3px 3px #e3e4e6;
 	color: #637277;
-	margin-bottom: 400px;
 }
 .left h2 {
 	padding-top: 50px;
@@ -802,7 +803,7 @@ footer {
 		min-width: 100px;
 		box-sizing: border-box;
 		padding: 15px 20px;
-		margin-left: 10px;
+		margin-left: 5px;
 		float: left;
 	}
 
@@ -811,6 +812,7 @@ footer {
 		min-width: 100px;
 		box-sizing: border-box;
 		padding: 15px 20px;
+		margin-right: 5px;
 		float: right;
 		position: relative;
 	}
@@ -829,5 +831,12 @@ footer {
 		width: 50px;
 		height: 50px;
 		float: none;
+	}
+	#leftImage {
+		float: none;
+		margin: 20px auto;
+	}
+	.left h2 {
+		padding-top: 0;
 	}
 }
