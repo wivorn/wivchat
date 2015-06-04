@@ -663,6 +663,20 @@ footer {
 	display:none;
 }
 
+.footer {
+	text-align: center;
+}
+
+.footer a {
+	text-decoration: none;
+	color: #f39c12;
+}
+
+.node a {
+	color: #f39c12;
+	text-decoration: none;
+}
+
 .chatscreen{
 	display:none;
 	width: 100%;
