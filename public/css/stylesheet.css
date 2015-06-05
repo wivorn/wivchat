@@ -690,6 +690,11 @@ select {
 	color: #333;
 }
 
+.native {
+	font-size: 14px;
+	margin-bottom: 10px;
+}
+
 .chatscreen{
 	display:none;
 	width: 100%;
